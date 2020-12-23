@@ -1,0 +1,26 @@
+@import "abstract/functions"; //no need to type _ and .scss
+@import "abstract/mixins";
+@import "abstract/variables";
+
+@import "base/animations"; 
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/bg-video";
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/form";
+@import "components/formularz";
+@import "components/story";
+
+@import "layout/grid";
+@import "layout/header";
+
+@import "pages/home";
+
+
+
+ 
