@@ -1,6 +1,7 @@
 .row {
     max-width: $grid-width;
     margin: 0 auto;
+ 
 
     @include respond(tab-port) {
         max-width: 50rem;
@@ -13,7 +14,6 @@
         @include respond(tab-port) {
             margin-bottom: $gutter-vertical-small;
         }
-        
     }
 
     @include clearfix;
@@ -37,7 +37,7 @@
 
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
-
+  
     }
 
     .col-1-of-3 {
